@@ -14,20 +14,51 @@ body {
 .main_p {
     padding-top: 3em;
     height: 110vh;
-    background: url(./svgs/Main_page.svg);
+    background: url(./svgs/1.svg);
     background-size: cover;
     width: 100%;
     align-items: center;
+    overflow-x: hidden;
+
 
 }
-
+.placeholder2
+{
+    margin-top:25vh;
+    margin-left:6vw;
+}
+.head2{
+    font-family: 'Marcellus SC', serif;
+    font-size:25px;
+}
+.pl-3{
+    margin-top:2vh;
+    margin-left:5vw;
+}
+.head3
+{
+    font-family: 'Pacifico', cursive;
+    font-size:90px;
+}
+.head4
+{
+    display:inline-block;
+    margin-left:2vw;
+    font-family: 'Pacifico', cursive;
+    font-size:74px;
+}
+.placeholder3{
+    margin-left:6vw;
+}
 .abt_me {
-
+    position:fixed;
     height: 110vh;
     background: url(./svgs/About_me.svg);
     background-size: cover;
     width: 100%;
     align-items: center;
+    overflow-x: hidden;
+
 
 }
 
@@ -37,6 +68,8 @@ body {
     background-size: cover;
     width: 100%;
     align-items: center;
+    overflow-x: hidden;
+
 }
 
 .book_tra {
@@ -45,6 +78,8 @@ body {
     background-size: cover;
     width: 100%;
     align-items: center;
+    overflow-x: hidden;
+
 }
 
 .YT_links {
