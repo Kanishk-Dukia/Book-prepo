@@ -59,24 +59,23 @@ body {
 
 
 .main_cd_1{
-    display: flex;
-    flex-direction: row;
+    /* display: grid; */
     /* justify-content: center; */
 
 }
 
 .card_11{
+
     margin-top: 18em;
     /* margin-left: 2em;    */
-    align-items: flex-start;
+    /* align-items: flex-start; */
 }
 
 .card_12{
     margin-top: 18em;
     /* margin-left: 50em; */
-    align-items: flex-end;
-   
-
+    /* align-items: flex-end;   */
+    justify-self: flex-end;
 }
 
 .main_cd_2{
