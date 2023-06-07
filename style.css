@@ -1,28 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* .home {
+    display: flex;
+    flex-direction: row;
+} */
+
+.main_p {
+    padding-top: 3em;
+    height: 110vh;
+    background: url(./svgs/Main_page.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+
+}
+
+.abt_me {
+
+    height: 110vh;
+    background: url(./svgs/About_me.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+
+}
+
+.abt_book {
+    height: 110vh;
+    background: url(./svgs/About_book.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+}
+
+.book_tra {
+    height: 110vh;
+    background: url(./svgs/Book_trailer.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+}
+
+.YT_links {
+    height: 110vh;
+    background: url(./svgs/YT_links.svg);
+    background-size: cover;
+    width: 100%;
+    align-items: center;
+}
+
+/* ----------------------cards */
+
+
+.main_cd_1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+
+}
+
+.card_11{
+    margin-top: 18em;
+    /* margin-left: 2em;    */
+    align-items: flex-start;
+}
+
+.card_12{
+    margin-top: 18em;
+    /* margin-left: 50em; */
+    align-items: flex-end;
+   
+
+}
+
+.main_cd_2{
+    margin-top: 12em;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* .card_21{
+    margin-left: 2em;
+}
+
+.card_23{
+    margin-right: 2em;
+} */
+
 @keyframes example {
     0% {
         opacity: 0;
     }
-20%{
-    opacity: 0.2;
-}
-40% {
-    opacity: 0.4;
-}
-60% {
-    opacity: 0.6;
-}
-80% {
-    opacity: 0.8;
-}
+
+    20% {
+        opacity: 0.2;
+    }
+
+    40% {
+        opacity: 0.4;
+    }
+
+    60% {
+        opacity: 0.6;
+    }
+
+    80% {
+        opacity: 0.8;
+    }
+
     100% {
-       opacity: 1;
+        opacity: 1;
     }
 }
-.anime{
-width: 100vw;
+
+.anime {
+    width: 100vw;
     height: 100vh;
     animation-name: example;
-    animation-timing-function:linear;
+    animation-timing-function: linear;
     animation-duration: 4s;
     position: relative;
 }
