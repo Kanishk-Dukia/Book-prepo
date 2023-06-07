@@ -11,10 +11,12 @@ body {
     flex-direction: row;
 } */
 
+
+/* main page-------------------------------------- */
 .main_p {
     padding-top: 3em;
     height: 110vh;
-    background: url(./svgs/1.svg);
+    background: url(./svgs/Main_page.svg);
     background-size: cover;
     width: 100%;
     align-items: center;
@@ -22,36 +24,43 @@ body {
 
 
 }
-.placeholder2
-{
-    margin-top:25vh;
-    margin-left:6vw;
+
+.placeholder2 {
+    margin-top: 25vh;
+    margin-left: 6vw;
 }
-.head2{
+
+.head2 {
     font-family: 'Marcellus SC', serif;
-    font-size:25px;
+    font-size: 25px;
 }
-.pl-3{
-    margin-top:2vh;
-    margin-left:5vw;
+
+.pl-3 {
+    margin-top: 2vh;
+    margin-left: 5vw;
 }
-.head3
-{
+
+.head3 {
     font-family: 'Pacifico', cursive;
-    font-size:90px;
+    font-size: 90px;
 }
-.head4
-{
-    display:inline-block;
-    margin-left:2vw;
+
+.head4 {
+    display: inline-block;
+    margin-left: 2vw;
     font-family: 'Pacifico', cursive;
-    font-size:74px;
+    font-size: 74px;
 }
-.placeholder3{
-    margin-left:6vw;
+
+.placeholder3 {
+    margin-left: 6vw;
 }
+
+
+
+/* ------------------------------------------aboutme */
 .abt_me {
-    position:fixed;
+    position: fixed;
     height: 110vh;
     background: url(./svgs/About_me.svg);
     background-size: cover;
@@ -61,6 +70,38 @@ body {
 
 
 }
+
+.abt_me_auth {
+    margin-top: 10em;
+    display: grid;
+    align-items: center;
+
+}
+
+
+.abt_me_auth h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    text-align: start;
+}
+
+.abt_me_auth h3 {
+    text-align: start;
+    font-weight: 350;
+    margin-top: 2em;
+    /* font-family: 'Marcellus SC', serif; */
+}
+
+.abt_me_pic{
+    margin-top: 10em;
+}
+
+.abt_me_pic img {
+
+    height: 40em;
+    width: 28em;
+}
+
 
 .abt_book {
     height: 110vh;
@@ -93,27 +134,27 @@ body {
 /* ----------------------cards */
 
 
-.main_cd_1{
+.main_cd_1 {
     /* display: grid; */
     /* justify-content: center; */
 
 }
 
-.card_11{
+.card_11 {
 
     margin-top: 18em;
     /* margin-left: 2em;    */
     /* align-items: flex-start; */
 }
 
-.card_12{
+.card_12 {
     margin-top: 18em;
     /* margin-left: 50em; */
     /* align-items: flex-end;   */
     justify-self: flex-end;
 }
 
-.main_cd_2{
+.main_cd_2 {
     margin-top: 12em;
     flex-direction: row;
     justify-content: center;
