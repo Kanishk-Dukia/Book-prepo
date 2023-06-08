@@ -60,8 +60,8 @@ body {
 
 /* ------------------------------------------aboutme */
 .abt_me {
-    position: fixed;
-    height: 110vh;
+    /* position: fixed; */
+    height:auto;
     background: url(./svgs/About_me.svg);
     background-size: cover;
     width: 100%;
@@ -114,17 +114,38 @@ body {
 }
 
 .book_tra {
-    height: 110vh;
-    background: url(./svgs/Book_trailer.svg);
+  
+height:125vh;
+
+    background: url(./svgs/4.svg);
     background-size: cover;
-    width: 100%;
+    /* width: 100%; */
     align-items: center;
     overflow-x: hidden;
+    z-index:1000;
 
 }
-
+.video-head
+{
+font-family: 'Pacifico', cursive;
+    font-size: 70px;
+text-align: center;
+margin-top:3vh;
+}
+.video{
+position:relative;
+width:100%;
+display:block;
+margin:auto;
+padding:2vh;
+ 
+}
+.video iframe{
+    /* position:absolute; */
+   
+}
 .YT_links {
-    height: 110vh;
+    height: 118vh;
     background: url(./svgs/YT_links.svg);
     background-size: cover;
     width: 100%;
@@ -149,9 +170,10 @@ body {
 
 .card_12 {
     margin-top: 18em;
+    /* margin-left:40vw; */
     /* margin-left: 50em; */
     /* align-items: flex-end;   */
-    justify-self: flex-end;
+   align-self: flex-end;
 }
 
 .main_cd_2 {
@@ -196,7 +218,7 @@ body {
 
 .anime {
     width: 100vw;
-    height: 100vh;
+    height: auto;
     animation-name: example;
     animation-timing-function: linear;
     animation-duration: 4s;
