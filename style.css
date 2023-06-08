@@ -102,9 +102,11 @@ body {
     width: 28em;
 }
 
+/* -------------------------------------------about book-- */
+
 
 .abt_book {
-    height: 110vh;
+    height: auto;
     background: url(./svgs/About_book.svg);
     background-size: cover;
     width: 100%;
@@ -112,9 +114,38 @@ body {
     overflow-x: hidden;
 
 }
+
+.abt_book_cnt h3{
+    text-align: start;
+    font-weight: 350;
+    margin-top: 2em;
+}
+
+.abt_book_cnt h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    text-align: start;
+}
+
+.abt_book_cnt{
+    margin-top: 10em;
+}
+
+.abt_book_pic img {
+
+    height: 38em;
+    width: 25em;
+    margin-top: 10em;
+}
+
+
+/* -----------------------------------book trailer---- */
+
+
 .card{
     margin:40px;
 }
+
 .book_tra {
   
 height:125vh;
