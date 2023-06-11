@@ -116,9 +116,10 @@ body {
 }
 
 .abt_book_cnt h3{
-    text-align: start;
-    font-weight: 350;
-    margin-top: 2em;
+text-align: start;
+    font-weight: 300;
+    font-size:25px;
+   
 }
 
 .abt_book_cnt h1{
@@ -133,24 +134,23 @@ body {
 
 .abt_book_pic img {
 
-    height: 38em;
-    width: 25em;
+height: 32em;
+    width: 20em;
     margin-top: 10em;
+    margin-left: 5em;
 }
 
 
 /* -----------------------------------book trailer---- */
 
 
-.card{
-    margin:40px;
-}
+
 
 .book_tra {
   
 height:125vh;
 
-    background: url(./svgs/4.svg);
+    background: url(./svgs/Book\ trailer-new.com.svg);
     background-size: cover;
     /* width: 100%; */
     align-items: center;
@@ -173,20 +173,85 @@ margin:auto;
 padding:2vh;
  
 }
+
 .video iframe{
     /* position:absolute; */
    
 }
 .YT_links {
     height: 118vh;
-    background: url(./svgs/YT_links.svg);
+    background: url(./svgs/FAQs\ \(1\).svg);
     background-size: cover;
     width: 100%;
     align-items: center;
 }
+.header-links
+{
+    font-family: 'Marcellus SC', serif;
+        font-size: 70px;
+}
+
+.event-box-1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 50px;
+    padding: 19px 2px;
+    padding-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    align-items: stretch;
+}
+.event-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 50px;
+    padding: 29px 1px;
+    padding-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    align-items: stretch;
+}
+.single-event {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+}
+.single-event-1 {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+}
+.single-event:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.single-event-1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
 
 /* ----------------------cards */
-
+.row2
+{
+    margin-top:40px;
+}
 
 .main_cd_1 {
     /* display: grid; */
@@ -213,6 +278,10 @@ padding:2vh;
     margin-top: 12em;
     flex-direction: row;
     justify-content: center;
+}
+.vi-1
+{
+width:400px;
 }
 
 /* .card_21{
