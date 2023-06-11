@@ -14,15 +14,20 @@ body {
 
 /* main page-------------------------------------- */
 .main_p {
-    padding-top: 3em;
-    height: 110vh;
+
+    height: auto;
     background: url(./svgs/Main_page.svg);
     background-size: cover;
     width: 100%;
     align-items: center;
     overflow-x: hidden;
 
+}
 
+.main_p_pic img {
+
+    height: 40em;
+    width: 45em;
 }
 
 .placeholder2 {
@@ -61,7 +66,7 @@ body {
 /* ------------------------------------------aboutme */
 .abt_me {
     /* position: fixed; */
-    height:auto;
+    height: auto;
     background: url(./svgs/About_me.svg);
     background-size: cover;
     width: 100%;
@@ -92,7 +97,7 @@ body {
     /* font-family: 'Marcellus SC', serif; */
 }
 
-.abt_me_pic{
+.abt_me_pic {
     margin-top: 10em;
 }
 
@@ -115,26 +120,26 @@ body {
 
 }
 
-.abt_book_cnt h3{
-text-align: start;
+.abt_book_cnt h3 {
+    text-align: start;
     font-weight: 300;
-    font-size:25px;
-   
+    font-size: 25px;
+
 }
 
-.abt_book_cnt h1{
+.abt_book_cnt h1 {
     font-family: 'Pacifico', cursive;
     font-size: 60px;
     text-align: start;
 }
 
-.abt_book_cnt{
+.abt_book_cnt {
     margin-top: 10em;
 }
 
 .abt_book_pic img {
 
-height: 32em;
+    height: 32em;
     width: 20em;
     margin-top: 10em;
     margin-left: 5em;
@@ -147,50 +152,52 @@ height: 32em;
 
 
 .book_tra {
-  
-height:125vh;
+
+    height: 125vh;
 
     background: url(./svgs/Book\ trailer-new.com.svg);
     background-size: cover;
     /* width: 100%; */
     align-items: center;
     overflow-x: hidden;
-    z-index:1000;
+    z-index: 1000;
 
 }
-.video-head
-{
-font-family: 'Pacifico', cursive;
+
+.video-head {
+    font-family: 'Pacifico', cursive;
     font-size: 70px;
-text-align: center;
-margin-top:3vh;
-}
-.video{
-position:relative;
-width:100%;
-display:block;
-margin:auto;
-padding:2vh;
- 
+    text-align: center;
+    margin-top: 3vh;
 }
 
-.video iframe{
-    /* position:absolute; */
-   
+.video {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 2vh;
+
 }
+
+.video iframe {
+    /* position:absolute; */
+
+}
+
 .YT_links {
-    height:auto;
+    height: auto;
     background: url(./svgs/FAQs\ \(1\).svg);
     background-size: cover;
     width: 100%;
     align-items: center;
     overflow-x: hidden;
-   
+
 }
-.header-links
-{
+
+.header-links {
     font-family: 'Marcellus SC', serif;
-        font-size: 70px;
+    font-size: 70px;
 }
 
 .event-box-1 {
@@ -202,6 +209,7 @@ padding:2vh;
     font-family: 'Poppins', sans-serif;
     align-items: stretch;
 }
+
 .event-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -211,6 +219,7 @@ padding:2vh;
     font-family: 'Poppins', sans-serif;
     align-items: stretch;
 }
+
 .single-event {
     background-color: #fff;
     padding: 10px;
@@ -225,6 +234,7 @@ padding:2vh;
     text-decoration: none;
     color: #000;
 }
+
 .single-event-1 {
     background-color: #fff;
     padding: 10px;
@@ -239,10 +249,12 @@ padding:2vh;
     text-decoration: none;
     color: #000;
 }
+
 .single-event:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
+
 .single-event-1:hover {
     transform: translateY(-10px);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -250,9 +262,8 @@ padding:2vh;
 
 
 /* ----------------------cards */
-.row2
-{
-    margin-top:40px;
+.row2 {
+    margin-top: 40px;
 }
 
 .main_cd_1 {
@@ -273,7 +284,7 @@ padding:2vh;
     /* margin-left:40vw; */
     /* margin-left: 50em; */
     /* align-items: flex-end;   */
-   align-self: flex-end;
+    align-self: flex-end;
 }
 
 .main_cd_2 {
@@ -281,9 +292,9 @@ padding:2vh;
     flex-direction: row;
     justify-content: center;
 }
-.vi-1
-{
-width:400px;
+
+.vi-1 {
+    width: 400px;
 }
 
 /* .card_21{
@@ -328,51 +339,116 @@ width:400px;
     animation-duration: 4s;
     position: relative;
 }
+
 @media screen and (max-width:500px) {
-.video {
+    .video {
         /* position: relative; */
         display: block;
         margin: auto;
         padding: 1vh;
-        
-    }
-    .video iframe
-    {
-        margin-top:1vh;
-        width: 300px;
-        height:290px;
-    }
-    .single-event-1 iframe
-    {
-        width: 390px;
-            height: 315px;
-    }
-        .single-event iframe {
-            width: 390px;
-            height: 315px;
-        }
-.event-box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 50px;
-    padding: 29px 5px;
-    padding-bottom: 0;
-    font-family: 'Poppins', sans-serif;
-    align-items:normal;
-}
-        .event-box-1 {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            grid-gap: 50px;
-            padding: 29px 5px;
-            padding-bottom: 0;
-            font-family: 'Poppins', sans-serif;
-            align-items:center;
-        }
 
-           .book_tra {
-            height: 100vh;
-               background: url(./svgs/book-mobile.com\ \(500\ ×\ 667px\)\ \(1\).svg);
-              z-index:100;
-           }
+    }
+
+    .video iframe {
+        margin-top: 1vh;
+        width: 300px;
+        height: 290px;
+    }
+
+    .single-event-1 iframe {
+        width: 390px;
+        height: 315px;
+    }
+
+    .single-event iframe {
+        width: 390px;
+        height: 315px;
+    }
+
+    .event-box {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-gap: 50px;
+        padding: 29px 5px;
+        padding-bottom: 0;
+        font-family: 'Poppins', sans-serif;
+        align-items: normal;
+    }
+
+    .event-box-1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-gap: 50px;
+        padding: 29px 5px;
+        padding-bottom: 0;
+        font-family: 'Poppins', sans-serif;
+        align-items: center;
+    }
+
+    .book_tra {
+        height: 100vh;
+        background: url(./svgs/book-mobile.com\ \(500\ ×\ 667px\)\ \(1\).svg);
+        z-index: 100;
+    }
+}
+
+
+/* ------------------------for abt_book-- */
+@media only screen and (max-width: 767px) {
+    .book_desk {
+        display: none;
+    }
+
+    .abt_book_cnt {
+        margin-top: 2em;
+    }
+
+    .main_p_pic img {
+        margin-top: 2em;
+        height: 20em;
+        width: 23em;
+    }
+
+    .book_mob {
+        display: block;
+    }
+
+    .abt_book_pic img {
+
+        height: 25em;
+        width: 17em;
+        margin-top: 2em;
+        margin-left: 0em;
+    }
+
+    .abt_book_cnt h3 {
+        text-align: start;
+        font-weight: 400;
+        font-size: 25px;
+
+    }
+
+    .abt_me_pic img {
+        height: 30em;
+        width: 20em;
+
+
+    }
+
+    .abt_me_pic {
+        margin-top: 3em;
+        margin-bottom: 2em;
+    }
+
+
+}
+
+@media (min-width: 767px) {
+    .book_desk {
+        display: block;
+    }
+
+    .book_mob {
+        display: none;
+    }
 }
