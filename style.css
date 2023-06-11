@@ -179,11 +179,13 @@ padding:2vh;
    
 }
 .YT_links {
-    height: 118vh;
+    height:auto;
     background: url(./svgs/FAQs\ \(1\).svg);
     background-size: cover;
     width: 100%;
     align-items: center;
+    overflow-x: hidden;
+   
 }
 .header-links
 {
@@ -325,4 +327,52 @@ width:400px;
     animation-timing-function: linear;
     animation-duration: 4s;
     position: relative;
+}
+@media screen and (max-width:500px) {
+.video {
+        /* position: relative; */
+        display: block;
+        margin: auto;
+        padding: 1vh;
+        
+    }
+    .video iframe
+    {
+        margin-top:1vh;
+        width: 300px;
+        height:290px;
+    }
+    .single-event-1 iframe
+    {
+        width: 390px;
+            height: 315px;
+    }
+        .single-event iframe {
+            width: 390px;
+            height: 315px;
+        }
+.event-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 50px;
+    padding: 29px 5px;
+    padding-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    align-items:normal;
+}
+        .event-box-1 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            grid-gap: 50px;
+            padding: 29px 5px;
+            padding-bottom: 0;
+            font-family: 'Poppins', sans-serif;
+            align-items:center;
+        }
+
+           .book_tra {
+            height: 100vh;
+               background: url(./svgs/book-mobile.com\ \(500\ ×\ 667px\)\ \(1\).svg);
+              z-index:100;
+           }
 }
