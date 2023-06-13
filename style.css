@@ -16,18 +16,21 @@ body {
 .main_p {
 
     height: auto;
-    background: url(./svgs/Main_page.svg);
+    background: url(./svgs/Home-5.svg);
     background-size: cover;
     width: 100%;
     align-items: center;
     overflow-x: hidden;
+    z-index:1000;
 
 }
 
 .main_p_pic img {
 
-    height: 40em;
-    width: 45em;
+    height: 35em;
+    width: 40em;
+    padding-bottom:10vh;
+    padding-top: 5vh;
 }
 
 .placeholder2 {
@@ -340,20 +343,39 @@ body {
     animation-duration: 4s;
     position: relative;
 }
+@media screen and (min-width:1000px) {
+    .book_tra {
 
+        height: auto;
+    
+        background: url(./svgs/book_new_trailer.svg);
+        background-size: cover;
+       
+        align-items: center;
+        overflow-x: hidden;
+        z-index: 1000;
+    
+    }
+}
 @media screen and (max-width:500px) {
     .video {
         /* position: relative; */
         display: block;
         margin: auto;
-        padding: 1vh;
+        padding: 5vh;
 
+    }
+    .video-head {
+        font-family: 'Pacifico', cursive;
+        font-size: 45px;
+        text-align: center;
+        margin-top: 3vh;
     }
 
     .video iframe {
         margin-top: 1vh;
-        width: 300px;
-        height: 290px;
+        width: 350px;
+        height: 300px;
     }
 
     .single-event-1 iframe {
@@ -387,9 +409,26 @@ body {
     }
 
     .book_tra {
-        height: 100vh;
+        height: auto;
         background: url(./svgs/book-mobile.com\ \(500\ ×\ 667px\)\ \(1\).svg);
         z-index: 100;
+    }
+    .head3 {
+        font-family: 'Pacifico', cursive;
+        font-size: 60px;
+    }
+    .abt_me_auth h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 50px;
+        text-align: start;
+    }
+    .header-links {
+        font-family: 'Pacifico', cursive;
+        font-size: 50px;
+    }
+    .placeholder2 {
+        margin-top: 5vh;
+        margin-left: 6vw;
     }
 }
 
@@ -403,7 +442,10 @@ body {
     .abt_book_cnt {
         margin-top: 2em;
     }
-
+.main_p
+{
+    height:auto;
+}
     .main_p_pic img {
         margin-top: 2em;
         height: 20em;
@@ -444,13 +486,13 @@ body {
     .main_p {
 
        
-        background: url(./svgs/Main_page_mobile.png);
+        background: url(./svgs/Home.svg);
         background-repeat: no-repeat;
     
     }
 
     .abt_me {
-        background: url(./svgs/About_me_mobile.png);
+        background: url(./svgs/About.svg);
         background-repeat: no-repeat;
       
     
