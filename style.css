@@ -99,6 +99,7 @@ body {
 
 .abt_me_pic {
     margin-top: 10em;
+    margin-bottom: 2em;
 }
 
 .abt_me_pic img {
@@ -439,6 +440,31 @@ body {
         margin-top: 3em;
         margin-bottom: 2em;
     }
+
+    .main_p {
+
+       
+        background: url(./svgs/Main_page_mobile.png);
+        background-repeat: no-repeat;
+    
+    }
+
+    .abt_me {
+        background: url(./svgs/About_me_mobile.png);
+        background-repeat: no-repeat;
+      
+    
+    
+    }
+
+    .abt_book {
+    
+        background: url(./svgs/About_book_mobile.png);
+        background-repeat: no-repeat;
+  
+    
+    }
+
 
 
 }
